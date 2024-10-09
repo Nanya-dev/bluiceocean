@@ -1,0 +1,49 @@
+.gridsectcont{
+    width: 1280px;
+    height: 652.633px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 80px 50px 80px 50px;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+}
+.header {
+    color: #2d3748;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+.main-title {
+    color: #1a202c;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+.divider {
+    border-color: #e2e8f0;
+    margin: 1rem 0;
+}
+.description {
+    color: #4a5568;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+.grid {
+    display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.grid2cont{position: relative;
+    min-height: 1px;
+    display: flex;}
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.image {
+    width: 100%;
+    height: auto;
+}

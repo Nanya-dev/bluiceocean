@@ -1,0 +1,124 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: all 500ms ease;
+    position: fixed;
+  }
+
+  
+/* Inline #2 | http://localhost:5173/ */
+
+.nav-container {
+  /* max-width: 1200px; */
+  width: 1280px;
+}
+
+/* Element | http://localhost:5173/ */
+
+.flexCenter {
+  /* padding-left: 4px; */
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.nav-container {
+
+  max-width: 1200px; /* or any other max width you want */
+
+  margin: 0 auto;
+
+  padding: 0 20px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+  
+  nav.scrolled {
+    background: white;
+    box-shadow: 0 16px 14px -8px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 8px 8px;
+    top: 0;
+    width: 1134px;
+    padding:36px 0px;
+  }
+  
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a.button:nth-child(1) {
+    margin-right: 30px;
+  }
+  .wrapper > nav:nth-child(1) {
+    padding-top: 0px;
+    right: 0px;
+    left: 30px;
+  }
+  
+  .global-nav__ctas {
+    margin-left: 0px;
+    padding-left: 0px;
+    position: relative;
+    left: 0px;
+  }
+  
+.global-nav__list li {
+	color: #6c82a3;
+	margin-left: 48px;
+	font-size: 1.6rem;
+	text-transform: capitalize;
+	font-weight: 500;
+	transition: color .3s ease;
+	will-change: color;
+    display: flex;
+    gap: 34px;
+}
+
+.global-nav__list button.has-dropdown {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #6c82a3;
+    cursor: pointer;
+    box-shadow: none;
+
+    text-decoration: none;
+  
+    display: inline;
+  }
+  .global-nav__list button.has-dropdown:hover {
+    color: #0066f5;
+  }
+  
+  .global-nav__list button.has-dropdown::after {
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    vertical-align: middle;
+  }

@@ -1,0 +1,350 @@
+.info-wrapper{
+    display: flex;
+    width: 100%;
+    height: 1015.18px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.section2{
+	flex-wrap: initial;
+	justify-content:initial;
+	align-items:initial;
+	align-content: initial;
+	flex-basis: auto;
+	flex-grow: 1;
+	flex-shrink: 1;
+	align-self: auto;
+}
+
+   .section2{
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* or any other valid width value */
+    padding-inline-start: 0;
+  padding-inline-end: 0;
+  height: 100%;
+    flex-grow: 0;
+    align-self: initial;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+    margin:0 auto;
+    transition: background 0.3s; /* or any other valid transition property */
+    padding: 0% 5% 5% 5%; /* simplified padding shorthand */
+   }
+
+   .spacer{
+    height: 100px;
+   }
+
+
+   
+   .sub-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0;
+    transition: background 0.3s;
+  }
+   .sub1{
+
+  }
+
+  .picont{
+    display: flex;
+    flex-direction: row;
+    min-height: 555px;
+
+      justify-content: space-between;
+      gap: 50px 50px;
+      transition: background 0.3s;
+      margin-top: 30px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .cta1{
+     
+        position: relative;
+        display: flex;
+        transition: .5s;
+        flex-direction: column;
+        overflow: hidden; /* add this to ensure the border radius is visible */
+        border-radius: 20px 0 20px 0;
+      }
+      .cta10{
+     
+        position: relative;
+        display: flex;
+        transition: .5s;
+        flex-direction: column;
+        overflow: hidden; /* add this to ensure the border radius is visible */
+    
+        border-radius:0 20px 0 20px;
+      }
+      .cta1cont img{
+       width: 250.5px;
+       height: 400px;
+      }
+    .cta1txt{
+      min-height: 100px;
+      text-align: center;
+      padding: 0;
+      background-color: black;
+    }
+    
+    .sub1 .h2txt {
+      font-weight: 500;
+      color: grey;
+      font-family: "Red Hat Display",Sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: none;
+      
+    }
+    
+/* Element | http://localhost:5173/ */
+
+div.info-wrapper:nth-child(3) {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+/* Inline #5 | http://localhost:5173/ */
+
+.section2 {
+  /* padding: 0% 5% 5% 5%; */
+}
+
+.cta1txt {
+  border-radius: 0 0 20px 0;
+}
+
+.cta1txt h2 {
+  position: relative;
+  transition: .5s;
+}
+
+/* Element | http://localhost:5173/ */
+
+.section2 {
+  padding-bottom: 57.6px;
+  height: 100%;
+}
+
+/* Element | http://localhost:5173/ */
+
+.widg-con {
+  width: 784.55px;
+  height: 16px;
+}
+
+/* Element | http://localhost:5173/ */
+
+.h2txt {
+  height: 16px;
+  text-align: left;
+}
+
+/* Element | http://localhost:5173/ */
+
+.h3txt {
+  height: 217.2px;
+  text-align: left;
+}
+
+/* Element | http://localhost:5173/ */
+
+.picont {
+  margin-top: 30px;
+}
+
+/* Element | http://localhost:5173/ */
+
+div.container-widget:nth-child(1) > div:nth-child(1) {
+  height: 500px;
+  border-radius: 20px 0 20px 0;
+}
+
+/* Element | http://localhost:5173/ */
+
+div.container-widget:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  height: 400px;
+}
+
+/* Element | http://localhost:5173/ */
+
+div.container-widget:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1) {
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  display: contents;
+  height: 27.6px;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  transition: .5s;
+  top: 40px;
+}
+
+/* Element | http://localhost:5173/ */
+
+div.container-widget:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
+  /* }: ; */
+  z-index: 1;
+  overflow: hidden;
+ 
+  min-height: 200px;
+}
+
+/* Element | http://localhost:5173/ */
+
+div.container-widget1:nth-child(2) {
+  align-self: flex-end;
+}
+
+    
+    .cta1txt h2{
+      font-family: "Red Hat Display",Sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: none;
+      color: white;
+    }
+    .container-widget {
+        display: flex;
+      align-self: flex-start;
+      width: initial;
+      height: 100%;
+      flex-grow: 1;
+      align-self: stretch;
+      border-radius: 20px 0 20px 0;
+      animation: rise-up 1.5s ease-in-out;
+    }
+    .container-widget1 {
+      width: initial;
+      display: flex;
+      margin-top: 20px;
+      align-self: flex-end;
+      height: 100%;
+      flex-grow: 1;
+      align-self: stretch;
+      border-radius: 0 20px 0 20px;
+      animation: fall-down 1.5s ease-in-out;
+    }
+
+    .sub1 h2{
+      
+    }
+
+    .h3txt{
+      -webkit-transition: .3s;
+      transition: all .3s ease;
+      margin: 0;
+      margin-bottom: 20px;
+      font-family: 'Playfair Display';
+      font-size: 70px;
+      font-weight: 500;
+      color: #000;
+
+    }
+
+    .border-divider{
+      height: 4px;
+      width: 100px;
+      background: grey;
+      border-radius: 2px;
+      position: relative;
+      margin-left: 27px;
+      
+    }
+    .border-divider::before {
+      background-color:grey;
+      color: grey;
+    }
+    .border-divider::before {
+      content: "";
+      position: absolute;
+      
+      left: -27px;
+      top: 0;
+      display: inline-block;
+      height: 4px;
+      width: 4px;
+      border-radius: 50%;
+      
+      -webkit-box-shadow: 9px 0 0 0 currentColor,18px 0 0 0 currentColor;
+      box-shadow: 9px 0 0 0 currentColor,18px 0 0 0 currentColor;
+    }
+
+    .widg-con {
+      transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--e-transform-transition-duration,.4s);
+      animation: fall-down 1.5s ease-in-out;
+
+    }
+ 
+    
+    @keyframes fall-down {
+      0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+    @keyframes rise-up {
+
+      0% {
+    
+        transform: translateY(100%);
+    
+      }
+    
+      100% {
+    
+        transform: translateY(0);
+    
+      }
+    
+    }
+/* Element | http://127.0.0.1:5500/index.html */
+
+div.container-widget1:nth-child(2) {
+  align-self: flex-end;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+div.container-widget1:nth-child(4) {
+  align-self: end;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+div.container-widget:nth-child(3) {
+  align-self: flex-start;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+div.container-widget:nth-child(1) {
+  align-self: flex-start;
+}
+.zoom-img {
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+.zoom-img:hover {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+nav.mobile-nav,
+.mobile-menu-container {
+  display: none;
+}

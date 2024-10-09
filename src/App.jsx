@@ -1,7 +1,24 @@
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import Info from './components/Info/Info';
+import InfoSection from './components/Header/InfoSection';
+import GridSect from './components/gridSect/gridSect';
+import News from './components/Newsletter/news';
+import Sect3 from './components/sect3/Sect3';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <span>subscribe Zainkeepscode</span>
+     <div className="App">
+       <Navbar />
+       <Hero/>
+       <Info/>
+       <InfoSection/>
+       <GridSect/>
+       <News/>
+       <Sect3/>
+       <Footer/>
+     </div>
   );
 }
 

@@ -1,0 +1,77 @@
+
+.info12 {
+  display: flex;
+  padding: 64px 0px;
+  background-color:#f3f3F3FC ;
+  width: 100%;
+  max-width: 1280px;
+  height: 681.3px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+.info12 .words{
+
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .elementor-heading-title {
+    color: #9CA3A6;
+    font-family: "Red Hat Display" ,Sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    text-transform: none;
+  }
+
+  .titlehead{
+      color: #2e2e2e;
+      font-family: "Playfair Display",Sans-serif;
+      font-size: 62px;
+      font-weight: 600;
+    }
+
+    .underline {
+      background-color: #000; /* Change the color to your desired color */
+      height: 2px; /* Change the height to your desired thickness */
+      width: 15%; /* Make it full width */
+      margin: 10px 0; /* Add some margin to separate it from the title */
+      border-block-start: 3px solid #9CA3A6;
+    }
+
+    .text2 {
+      text-align: justify;
+      font-family: "Red Hat Display",Sans-serif;
+      font-size:16px;
+      font-weight:400;
+      text-transform:none;
+      max-width: auto;
+    }
+    .txt {
+      margin-top: 1em;
+      margin-bottom: 1em;
+      font-size: calc(16* 1px);
+      line-height:1.75; 
+      font-weight:normal;
+    }
+  
+    .section2{
+      background-image: url('Samo.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px; /* adjust the height to your desired value */
+      text-align: center;
+        background-position: center center;
+        background-repeat: repeat-x;
+        background-size: cover;
+      }
+            
+    .underline1 {
+      background-color: #000;
+      height: 2px;
+      width: 100%;
+      margin: 10px 0;
+    }
